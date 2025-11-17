@@ -90,9 +90,9 @@ public class Cabina {
         return total;
     }
     
-    @Override
     public String toString() {
         return "Cabina " + nroCabina + " - Personas: " + getCantidadPersonas() + 
                ", Peso: " + getPesoTotal() + " kg, Ingresos: " + calcularIngresos() + " bs";
     }
+
 }
